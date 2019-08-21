@@ -1,0 +1,80 @@
+<<Default Constructor>>
+test1
+0       0
+0       0
+
+
+<<Constructor>> (Only size, all cells are initialized to 0)
+test2
+0       0       0       0
+0       0       0       0
+0       0       0       0
+
+
+<<Constructor>>
+test3a
+0       1
+4       -7.2
+8.1     2.6
+
+test3b
+2.2     -1      6
+4.3     8       -8.1
+
+
+<<Copy constructor>>
+test4
+0       1
+4       -7.2
+8.1     2.6
+
+
+<<Set data>>
+test4
+0       7.2
+4       -7.2
+8.1     2.6
+
+
+test4(row,col)=(3,2)
+
+
+test4(0,1)=7.2
+
+
+<<Add>>
+test3a + test4:
+0       1
+4       -7.2
+8.1     2.6
+ +
+0       7.2
+4       -7.2
+8.1     2.6
+ =
+0       8.2
+8       -14.4
+16.2    5.2
+
+
+<<Multiply>>
+test3a * test3b
+0       1
+4       -7.2
+8.1     2.6
+ *
+2.2     -1      6
+4.3     8       -8.1
+ =
+4.3     8       -8.1
+-22.16  -61.6   82.32
+29      12.7    27.54
+
+
+<<Transpose>>
+0       7.2
+4       -7.2
+8.1     2.6
+transpose
+0       4       8.1
+7.2     -7.2    2.6
