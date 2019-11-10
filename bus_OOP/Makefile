@@ -1,9 +1,5 @@
-#
-#  Makefile for Architecture Explorer
-#
-#  by Alan Su, NCKU
-#  alansuphd@mail.ncku.edu.tw
-#
+# Adama ZOUMA
+# stargue49@gmail.com
 
 CC = g++
 PCFLAG = -O1 -Wall -c
