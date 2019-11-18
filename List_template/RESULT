@@ -1,0 +1,17 @@
+
+			PROCESSING DOUBLE FILE
+
+The two lists [2.2348, 53.2, 0.2772] and [2.2348, 53.2, 0.2772] are the same.
+
+First double list is changed to: [9.7348, 60.7, 7.7772] after adding 7.5 to it.
+
+Second double list is changed to: [-18.5652, 32.4, -20.5228] after subtracting 20.8 to it.
+
+
+			PROCESSING STRING FILE
+
+The two lists [Adama, ZOUMA, come, to, taiwan, in, 2, years] and [Adama, ZOUMA, come, to, taiwan, in, 2, years] are the same.
+
+First string list is changed to: [Adama first changed, ZOUMA first changed, come first changed, to first changed, taiwan first changed, in first changed, 2 first changed, years first changed] after appending "first changed" to it.
+
+Second string list is changed to: [Adama second changed, ZOUMA second changed, come second changed, to second changed, taiwan second changed, in second changed, 2 second changed, years second changed] after appending "second changed" to it.

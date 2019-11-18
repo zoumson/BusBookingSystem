@@ -1,0 +1,14 @@
+List template
+
+3 source files: base class Node.h, derived class List.h and main.cpp
+Create a list with any Specified data type, int, double, string so on
+main.cpp: read two inputs files, all gets from command line(argv)
+-First input file is double data, where the first data is the list length_double
+-Second input file is a string Data
+
+An example of the reading file are provided, and also the expected result.
+input file name:
+- double
+- string
+
+result file is named : RESULT
